@@ -8,6 +8,11 @@ Output is in P3 .ppm format.
 
 Frensel lighting with Schlick approximation are added to the reflective surface to specify highlight. Smooth shading with barycentric interpolation are provided as an alternative for the flat shading, as vertex normals have been included.
 
+**Camera Parameter:**
+
+
+The camera orientation are defined from several parameters: eyepos, viewdir and updir. Eyepos defined the camera position in the world coordinates,viewdir is the camera facing direction and updir denotes the upward direction in the image frame. Imsize is the output pixel height and width for the image, and vfov shows the field of view for the camera, simulates distortion in wide angle camera with an vfov value greater than 90.
+
 **Material Parameter:**
 
 
