@@ -33,3 +33,15 @@ x y z represents light position for point light, light direction for direction l
 The input files are included in the TestInput.txt.
 
 <img width="656" height="660" alt="ppm sample" src="https://github.com/user-attachments/assets/a7a5f589-cef7-4c98-967f-b6aeffa99d03" />
+
+**Run In linux environment:**
+The code is compiled in VS developer command line mode, using c++17;
+cd to the file folder; 
+
+Use this command the to compile the code:
+g++ -std=c++17 raytracer.cpp -o raytracer
+
+
+Use this command to take the input files:
+raytracer1d.exe TestInfo.txt
+
