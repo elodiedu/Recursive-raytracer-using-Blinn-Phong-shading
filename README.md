@@ -5,7 +5,12 @@ Output is in P3 .ppm format.
 
 The parameter for the material in the input txt:
 Odr Odg Odb Osr Osg Osb ka kd ks n α η
-(Od and Os represents the diffuse and specular parameter in the Blinn Phong model; ka, kd and ks denotes the ambient, diffusive and specular reflective coefficiant; n represents the shiness component, α means opacity and η is the index of refraction).
+
+(Od and Os represents the diffuse and specular parameter in the Blinn Phong model; 
+
+ka, kd and ks denotes the ambient, diffusive and specular reflective coefficiant; 
+
+n represents the shiness component, α means opacity and η is the index of refraction).
 
 Example output:
 
